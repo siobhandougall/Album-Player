@@ -13,6 +13,14 @@
 		40739E1713ABC0D1007B2BAD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40739E1513ABC0D1007B2BAD /* Credits.rtf */; };
 		40739E1A13ABC0D1007B2BAD /* Album_PlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40739E1913ABC0D1007B2BAD /* Album_PlayerAppDelegate.m */; };
 		40739E1D13ABC0D1007B2BAD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40739E1B13ABC0D1007B2BAD /* MainMenu.xib */; };
+		40739E2513ABC11E007B2BAD /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 40739E2413ABC11E007B2BAD /* Album.m */; };
+		40739E2913ABC133007B2BAD /* AlbumList.m in Sources */ = {isa = PBXBuildFile; fileRef = 40739E2813ABC133007B2BAD /* AlbumList.m */; };
+		40739E2C13ABD7DD007B2BAD /* AlbumCollectionViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 40739E2B13ABD7DD007B2BAD /* AlbumCollectionViewItem.m */; };
+		40739E3913ABED72007B2BAD /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40739E3813ABED72007B2BAD /* QTKit.framework */; };
+		40739E3B13ABEFE9007B2BAD /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40739E3A13ABEFE9007B2BAD /* QuickLook.framework */; };
+		40739E4213ABF03F007B2BAD /* NSImage+QuickLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 40739E3F13ABF03F007B2BAD /* NSImage+QuickLook.m */; };
+		40739E4313ABF03F007B2BAD /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40739E4013ABF03F007B2BAD /* README.rtf */; };
+		40739E4413ABF03F007B2BAD /* Source Code License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40739E4113ABF03F007B2BAD /* Source Code License.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +29,26 @@
 		40739E0913ABC0D0007B2BAD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		40739E0A13ABC0D0007B2BAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		40739E0B13ABC0D0007B2BAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		40739E0E13ABC0D1007B2BAD /* Album Player-Info.plist */ = {isa = PBXFileReference; path = "Album Player-Info.plist"; sourceTree = "<group>"; };
+		40739E0E13ABC0D1007B2BAD /* Album Player-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Album Player-Info.plist"; sourceTree = "<group>"; };
 		40739E1013ABC0D1007B2BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		40739E1213ABC0D1007B2BAD /* Album Player-Prefix.pch */ = {isa = PBXFileReference; path = "Album Player-Prefix.pch"; sourceTree = "<group>"; };
+		40739E1213ABC0D1007B2BAD /* Album Player-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Album Player-Prefix.pch"; sourceTree = "<group>"; };
 		40739E1313ABC0D1007B2BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40739E1613ABC0D1007B2BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		40739E1813ABC0D1007B2BAD /* Album_PlayerAppDelegate.h */ = {isa = PBXFileReference; path = Album_PlayerAppDelegate.h; sourceTree = "<group>"; };
+		40739E1813ABC0D1007B2BAD /* Album_PlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Album_PlayerAppDelegate.h; sourceTree = "<group>"; };
 		40739E1913ABC0D1007B2BAD /* Album_PlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Album_PlayerAppDelegate.m; sourceTree = "<group>"; };
 		40739E1C13ABC0D1007B2BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		40739E2313ABC11E007B2BAD /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		40739E2413ABC11E007B2BAD /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
+		40739E2713ABC133007B2BAD /* AlbumList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumList.h; sourceTree = "<group>"; };
+		40739E2813ABC133007B2BAD /* AlbumList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumList.m; sourceTree = "<group>"; };
+		40739E2A13ABD7DD007B2BAD /* AlbumCollectionViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumCollectionViewItem.h; sourceTree = "<group>"; };
+		40739E2B13ABD7DD007B2BAD /* AlbumCollectionViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumCollectionViewItem.m; sourceTree = "<group>"; };
+		40739E3813ABED72007B2BAD /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = ../../../../../System/Library/Frameworks/QTKit.framework; sourceTree = "<group>"; };
+		40739E3A13ABEFE9007B2BAD /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = ../../../../../System/Library/Frameworks/QuickLook.framework; sourceTree = "<group>"; };
+		40739E3E13ABF03F007B2BAD /* NSImage+QuickLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+QuickLook.h"; sourceTree = "<group>"; };
+		40739E3F13ABF03F007B2BAD /* NSImage+QuickLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+QuickLook.m"; sourceTree = "<group>"; };
+		40739E4013ABF03F007B2BAD /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+		40739E4113ABF03F007B2BAD /* Source Code License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Source Code License.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				40739E0713ABC0D0007B2BAD /* Cocoa.framework in Frameworks */,
+				40739E3913ABED72007B2BAD /* QTKit.framework in Frameworks */,
+				40739E3B13ABEFE9007B2BAD /* QuickLook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,27 +86,24 @@
 			isa = PBXGroup;
 			children = (
 				40739E0613ABC0D0007B2BAD /* Cocoa.framework */,
-				40739E0813ABC0D0007B2BAD /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		40739E0813ABC0D0007B2BAD /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
 				40739E0913ABC0D0007B2BAD /* AppKit.framework */,
 				40739E0A13ABC0D0007B2BAD /* CoreData.framework */,
 				40739E0B13ABC0D0007B2BAD /* Foundation.framework */,
+				40739E3813ABED72007B2BAD /* QTKit.framework */,
+				40739E3A13ABEFE9007B2BAD /* QuickLook.framework */,
 			);
-			name = "Other Frameworks";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		40739E0C13ABC0D0007B2BAD /* Album Player */ = {
 			isa = PBXGroup;
 			children = (
+				40739E2613ABC122007B2BAD /* Model */,
+				40739E2D13ABD7E5007B2BAD /* View */,
 				40739E1813ABC0D1007B2BAD /* Album_PlayerAppDelegate.h */,
 				40739E1913ABC0D1007B2BAD /* Album_PlayerAppDelegate.m */,
 				40739E1B13ABC0D1007B2BAD /* MainMenu.xib */,
+				40739E3D13ABF03F007B2BAD /* NSImageQuickLook */,
 				40739E0D13ABC0D1007B2BAD /* Supporting Files */,
 			);
 			path = "Album Player";
@@ -100,6 +119,37 @@
 				40739E1513ABC0D1007B2BAD /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40739E2613ABC122007B2BAD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40739E2313ABC11E007B2BAD /* Album.h */,
+				40739E2413ABC11E007B2BAD /* Album.m */,
+				40739E2713ABC133007B2BAD /* AlbumList.h */,
+				40739E2813ABC133007B2BAD /* AlbumList.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		40739E2D13ABD7E5007B2BAD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40739E2A13ABD7DD007B2BAD /* AlbumCollectionViewItem.h */,
+				40739E2B13ABD7DD007B2BAD /* AlbumCollectionViewItem.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		40739E3D13ABF03F007B2BAD /* NSImageQuickLook */ = {
+			isa = PBXGroup;
+			children = (
+				40739E3E13ABF03F007B2BAD /* NSImage+QuickLook.h */,
+				40739E3F13ABF03F007B2BAD /* NSImage+QuickLook.m */,
+				40739E4013ABF03F007B2BAD /* README.rtf */,
+				40739E4113ABF03F007B2BAD /* Source Code License.rtf */,
+			);
+			path = NSImageQuickLook;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +205,8 @@
 				40739E1113ABC0D1007B2BAD /* InfoPlist.strings in Resources */,
 				40739E1713ABC0D1007B2BAD /* Credits.rtf in Resources */,
 				40739E1D13ABC0D1007B2BAD /* MainMenu.xib in Resources */,
+				40739E4313ABF03F007B2BAD /* README.rtf in Resources */,
+				40739E4413ABF03F007B2BAD /* Source Code License.rtf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +219,10 @@
 			files = (
 				40739E1413ABC0D1007B2BAD /* main.m in Sources */,
 				40739E1A13ABC0D1007B2BAD /* Album_PlayerAppDelegate.m in Sources */,
+				40739E2513ABC11E007B2BAD /* Album.m in Sources */,
+				40739E2913ABC133007B2BAD /* AlbumList.m in Sources */,
+				40739E2C13ABD7DD007B2BAD /* AlbumCollectionViewItem.m in Sources */,
+				40739E4213ABF03F007B2BAD /* NSImage+QuickLook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

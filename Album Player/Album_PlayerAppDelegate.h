@@ -8,11 +8,15 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface Album_PlayerAppDelegate : NSObject <NSApplicationDelegate> {
-@private
-    NSWindow *window;
+@class AlbumList;
+
+@interface Album_PlayerAppDelegate : NSObject <NSApplicationDelegate>
+{
+    NSWindow *_window;
+    AlbumList *_albumList;
 }
 
 @property (assign) IBOutlet NSWindow *window;
+@property (retain) AlbumList *albumList;
 
 @end

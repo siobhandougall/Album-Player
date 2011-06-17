@@ -7,14 +7,18 @@
 //
 
 #import "Album_PlayerAppDelegate.h"
+#import "AlbumList.h"
 
 @implementation Album_PlayerAppDelegate
 
-@synthesize window;
+@synthesize window = _window;
+
+@synthesize albumList = _albumList;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    self.albumList = [[[AlbumList alloc] init] autorelease];
 }
 
 @end
