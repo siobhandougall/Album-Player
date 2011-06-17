@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Album Player' target in the 'Album Player' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

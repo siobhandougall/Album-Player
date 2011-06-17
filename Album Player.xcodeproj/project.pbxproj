@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40739E0713ABC0D0007B2BAD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40739E0613ABC0D0007B2BAD /* Cocoa.framework */; };
+		40739E1113ABC0D1007B2BAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40739E0F13ABC0D1007B2BAD /* InfoPlist.strings */; };
+		40739E1413ABC0D1007B2BAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40739E1313ABC0D1007B2BAD /* main.m */; };
+		40739E1713ABC0D1007B2BAD /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40739E1513ABC0D1007B2BAD /* Credits.rtf */; };
+		40739E1A13ABC0D1007B2BAD /* Album_PlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40739E1913ABC0D1007B2BAD /* Album_PlayerAppDelegate.m */; };
+		40739E1D13ABC0D1007B2BAD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40739E1B13ABC0D1007B2BAD /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40739E0213ABC0D0007B2BAD /* Album Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Album Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40739E0613ABC0D0007B2BAD /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		40739E0913ABC0D0007B2BAD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		40739E0A13ABC0D0007B2BAD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		40739E0B13ABC0D0007B2BAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		40739E0E13ABC0D1007B2BAD /* Album Player-Info.plist */ = {isa = PBXFileReference; path = "Album Player-Info.plist"; sourceTree = "<group>"; };
+		40739E1013ABC0D1007B2BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		40739E1213ABC0D1007B2BAD /* Album Player-Prefix.pch */ = {isa = PBXFileReference; path = "Album Player-Prefix.pch"; sourceTree = "<group>"; };
+		40739E1313ABC0D1007B2BAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40739E1613ABC0D1007B2BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		40739E1813ABC0D1007B2BAD /* Album_PlayerAppDelegate.h */ = {isa = PBXFileReference; path = Album_PlayerAppDelegate.h; sourceTree = "<group>"; };
+		40739E1913ABC0D1007B2BAD /* Album_PlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Album_PlayerAppDelegate.m; sourceTree = "<group>"; };
+		40739E1C13ABC0D1007B2BAD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40739DFF13ABC0CF007B2BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40739E0713ABC0D0007B2BAD /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40739DF713ABC0CF007B2BAD = {
+			isa = PBXGroup;
+			children = (
+				40739E0C13ABC0D0007B2BAD /* Album Player */,
+				40739E0513ABC0D0007B2BAD /* Frameworks */,
+				40739E0313ABC0D0007B2BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40739E0313ABC0D0007B2BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40739E0213ABC0D0007B2BAD /* Album Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40739E0513ABC0D0007B2BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40739E0613ABC0D0007B2BAD /* Cocoa.framework */,
+				40739E0813ABC0D0007B2BAD /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40739E0813ABC0D0007B2BAD /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40739E0913ABC0D0007B2BAD /* AppKit.framework */,
+				40739E0A13ABC0D0007B2BAD /* CoreData.framework */,
+				40739E0B13ABC0D0007B2BAD /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		40739E0C13ABC0D0007B2BAD /* Album Player */ = {
+			isa = PBXGroup;
+			children = (
+				40739E1813ABC0D1007B2BAD /* Album_PlayerAppDelegate.h */,
+				40739E1913ABC0D1007B2BAD /* Album_PlayerAppDelegate.m */,
+				40739E1B13ABC0D1007B2BAD /* MainMenu.xib */,
+				40739E0D13ABC0D1007B2BAD /* Supporting Files */,
+			);
+			path = "Album Player";
+			sourceTree = "<group>";
+		};
+		40739E0D13ABC0D1007B2BAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40739E0E13ABC0D1007B2BAD /* Album Player-Info.plist */,
+				40739E0F13ABC0D1007B2BAD /* InfoPlist.strings */,
+				40739E1213ABC0D1007B2BAD /* Album Player-Prefix.pch */,
+				40739E1313ABC0D1007B2BAD /* main.m */,
+				40739E1513ABC0D1007B2BAD /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40739E0113ABC0CF007B2BAD /* Album Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40739E2013ABC0D1007B2BAD /* Build configuration list for PBXNativeTarget "Album Player" */;
+			buildPhases = (
+				40739DFE13ABC0CF007B2BAD /* Sources */,
+				40739DFF13ABC0CF007B2BAD /* Frameworks */,
+				40739E0013ABC0CF007B2BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Album Player";
+			productName = "Album Player";
+			productReference = 40739E0213ABC0D0007B2BAD /* Album Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40739DF913ABC0CF007B2BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Figure 53";
+			};
+			buildConfigurationList = 40739DFC13ABC0CF007B2BAD /* Build configuration list for PBXProject "Album Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 40739DF713ABC0CF007B2BAD;
+			productRefGroup = 40739E0313ABC0D0007B2BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40739E0113ABC0CF007B2BAD /* Album Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40739E0013ABC0CF007B2BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40739E1113ABC0D1007B2BAD /* InfoPlist.strings in Resources */,
+				40739E1713ABC0D1007B2BAD /* Credits.rtf in Resources */,
+				40739E1D13ABC0D1007B2BAD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40739DFE13ABC0CF007B2BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40739E1413ABC0D1007B2BAD /* main.m in Sources */,
+				40739E1A13ABC0D1007B2BAD /* Album_PlayerAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40739E0F13ABC0D1007B2BAD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40739E1013ABC0D1007B2BAD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		40739E1513ABC0D1007B2BAD /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40739E1613ABC0D1007B2BAD /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		40739E1B13ABC0D1007B2BAD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40739E1C13ABC0D1007B2BAD /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40739E1E13ABC0D1007B2BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		40739E1F13ABC0D1007B2BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		40739E2113ABC0D1007B2BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Album Player/Album Player-Prefix.pch";
+				INFOPLIST_FILE = "Album Player/Album Player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		40739E2213ABC0D1007B2BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Album Player/Album Player-Prefix.pch";
+				INFOPLIST_FILE = "Album Player/Album Player-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40739DFC13ABC0CF007B2BAD /* Build configuration list for PBXProject "Album Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40739E1E13ABC0D1007B2BAD /* Debug */,
+				40739E1F13ABC0D1007B2BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40739E2013ABC0D1007B2BAD /* Build configuration list for PBXNativeTarget "Album Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40739E2113ABC0D1007B2BAD /* Debug */,
+				40739E2213ABC0D1007B2BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40739DF913ABC0CF007B2BAD /* Project object */;
+}
